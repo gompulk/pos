@@ -1,0 +1,5 @@
+body { background: #f4f7fb; }
+.card { border: none; border-radius: 14px; }
+.stat-card { background: linear-gradient(135deg, #ffffff, #f7faff); }
+.table { background: #fff; border-radius: 12px; overflow: hidden; }
+.btn { border-radius: 10px; }
