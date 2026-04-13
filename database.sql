@@ -1,0 +1,12 @@
+CREATE TABLE transaksi (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ total INT,
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE detail (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ transaksi_id INT,
+ produk_id INT,
+ harga INT
+);
